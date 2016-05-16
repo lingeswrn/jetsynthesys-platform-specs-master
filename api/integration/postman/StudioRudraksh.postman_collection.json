@@ -1,0 +1,181 @@
+{
+	"id": "3c158981-985d-a028-a8c4-8c3bb65c7a05",
+	"name": "StudioRudraksh",
+	"description": "",
+	"order": [
+		"f16a7253-8fcc-d8cd-5be1-92b309e641ad",
+		"329955d8-f0c2-0039-a28e-56f7619c5852",
+		"e4631c78-af2c-b285-f40a-3344c67e5ffe",
+		"cf24756f-ac3a-3f34-4b50-34dba733ea80"
+	],
+	"folders": [],
+	"timestamp": 1463389099368,
+	"owner": "596186",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "329955d8-f0c2-0039-a28e-56f7619c5852",
+			"headers": "",
+			"url": "http://api.homeshopapp.com/user/post",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3c158981-985d-a028-a8c4-8c3bb65c7a05",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "Postman",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "Test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "postman@test.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "1234567890",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "street",
+					"value": "350 Fifth Avenue, 34th floor",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "street_2",
+					"value": "New York, NY",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "city",
+					"value": "NewYork",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "postal_code",
+					"value": "10118-3299",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "state",
+					"value": "NY",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country",
+					"value": "US",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://api.homeshopapp.com/user/post",
+			"description": "Registration",
+			"descriptionFormat": "html",
+			"time": 1463389847371,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "cf24756f-ac3a-3f34-4b50-34dba733ea80",
+			"headers": "",
+			"url": "http://api.homeshopapp.com/user/session/delete",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "3c158981-985d-a028-a8c4-8c3bb65c7a05",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://api.homeshopapp.com/user/session/delete",
+			"description": "Logout",
+			"descriptionFormat": "html",
+			"time": 1463390282925,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e4631c78-af2c-b285-f40a-3344c67e5ffe",
+			"headers": "",
+			"url": "http://api.homeshopapp.com/user/session/get",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "3c158981-985d-a028-a8c4-8c3bb65c7a05",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://api.homeshopapp.com/user/session/get",
+			"description": "Check Session",
+			"descriptionFormat": "html",
+			"time": 1463390002408,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f16a7253-8fcc-d8cd-5be1-92b309e641ad",
+			"url": "http://api.homeshopapp.com/user/session/post",
+			"method": "POST",
+			"headers": "",
+			"data": [
+				{
+					"key": "email",
+					"value": "lingeswrn@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"version": 2,
+			"name": "http://api.homeshopapp.com/user/session/post",
+			"description": "Login",
+			"descriptionFormat": "html",
+			"collectionId": "3c158981-985d-a028-a8c4-8c3bb65c7a05"
+		}
+	]
+}
